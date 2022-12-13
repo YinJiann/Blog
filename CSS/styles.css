@@ -2,7 +2,12 @@
 body{
     font-family: 'Merriweather Sans', sans-serif;
 }
-
+hr{
+    border: dotted #E4F6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
 /* Headings */
 .big-heading{
     font-size: 3.5rem;
@@ -34,22 +39,52 @@ body{
     padding: 7% 15%;
     background-color: #5F8D4E;
 }
+.blog-title{
+    text-align: center;
+}
+.card-title{
+    font-weight: bold;
+    text-shadow: none;
+}
 .blog-card{
     padding-bottom: 15px;
     padding-top: 15px;
+    padding: 4%;
 }
+
 
 /* Disclaimer section */
 #disclaimer{
-    background-color: #E5D9B6;
-    padding: 1% 1% 0.1%;
+    text-align:center;
+    background-color: #A4BE7B;
 }
 .disclaimer-icon{
-    float:left;
-    margin-right: 1rem;
-    position: relative;
-    top: 0.4rem;
+    margin: auto 0.5rem;
 }
 .disclaimer-text{
+    padding-top: 1rem;
+    text-align: left;
+}
 
+/*Footer Section*/
+#contact-me{
+    text-align: center;
+    background-color: #E5D9B6;
+    color: black;
+    padding: 2%;
+}
+.socials{
+    text-align: left;
+    padding-left: 0%;
+    padding-right: 2%;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.socials:hover{
+    color:rgba(0,0,0,.5);
+}
+.copyright{
+    margin-top: 2rem;
+    padding:none;
 }
