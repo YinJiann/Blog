@@ -1,3 +1,55 @@
-.rv-photo{
-    max-width:60%;
+/* HTML Tag selectors*/
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* Headings */
+.big-heading{
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding: 15px auto;
+}
+
+
+/* Title Section */
+#title{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #A4BE7B;
+}
+.profile-photo{
+    border-radius: 100%;
+    width: 50%;
+    position: relative;
+    left: 30%;
+}
+
+/* Blog section */
+#blog{
+    padding: 7% 15%;
+    background-color: #5F8D4E;
+}
+.blog-card{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+/* Disclaimer section */
+#disclaimer{
+    background-color: #E5D9B6;
+    padding: 1% 1% 0.1%;
+}
+.disclaimer-icon{
+    float:left;
+    margin-right: 1rem;
+    position: relative;
+    top: 0.4rem;
+}
+.disclaimer-text{
+
 }
