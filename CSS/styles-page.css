@@ -73,7 +73,17 @@ body{
     font-size:small;
     font-weight: light;
 }
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
 
+
+/* Blog Section */
+.game-photo{
+    height:250px;
+    margin: 0 4rem;
+}
 
 /*Footer Section*/
 #contact-me{
