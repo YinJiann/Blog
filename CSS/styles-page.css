@@ -12,17 +12,22 @@ body{
 }
 .sub-heading{
     font-family: 'Merriweather', serif;
-    font-size: 800;
+    font-size: 2.5rem;
 }
 .last-update-text{
     font-weight: light;
+    color: rgba(0,0,0,.5);
+    font-size: 1rem;
 }
 .main-text{
-
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /*Side bar */
-.sidenav {
+/* .sidenav {
     width: 130px;
     position:absolute;
     z-index: 1;
@@ -44,28 +49,47 @@ body{
   .sidenav a:hover {
     color: #064579;
   }
-  
+  */
   .main {
-    position:absolute;
-    top: 5rem;
-    left: 3rem;
-    margin-left: 320px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
+    padding: 7% 20%;
+
   }
-  
+  /*
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  }
+  } */
  
   /* Title */
-  .main-photo{
-    height:700px;
-    text-align: center;
-  }
-  .photo-caption{
+.main-photo{
+    height:640px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.photo-caption{
+    margin-top: 0.5rem;
     text-align: center;
     font-size:small;
     font-weight: light;
-  }
+}
+
+
+/*Footer Section*/
+#contact-me{
+    text-align: center;
+    background-color: #E5D9B6;
+    color: black;
+    padding: 2%;
+}
+.socials{
+    margin: 0 1rem;
+    color: black;
+}
+.socials:hover{
+    color:rgba(0,0,0,.5);
+}
+.copyright{
+    margin-top: 2rem;
+    padding:none;
+}
