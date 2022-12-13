@@ -85,6 +85,19 @@ body{
     margin: 0 4rem;
 }
 
+/* Disclaimer section */
+#disclaimer{
+    text-align:center;
+    background-color: #A4BE7B;
+}
+.disclaimer-icon{
+    margin: auto 0.5rem;
+}
+.disclaimer-text{
+    padding-top: 1rem;
+    text-align: left;
+}
+
 /*Footer Section*/
 #contact-me{
     text-align: center;
