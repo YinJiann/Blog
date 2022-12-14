@@ -20,7 +20,7 @@ body{
     font-size: 1rem;
 }
 .main-text{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     text-align: justify;
     text-justify: inter-word;
@@ -51,7 +51,7 @@ body{
   }
   */
   .main {
-    padding: 7% 20%;
+    padding: 7% 25% 3%;
 
   }
   /*
@@ -85,12 +85,26 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.videoo{
+    width: 400px; 
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
 
 /* Lyric Section */
 #lyric{
     text-align: center;
     margin: 0 0 1rem;
     padding: 1%;
+}
+.lyric-link{
+    color: black;
+}
+.lyric-link:hover{
+    color:rgba(0,0,0,.5);
 }
 
 /* Disclaimer section */
