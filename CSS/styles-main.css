@@ -10,7 +10,7 @@ hr{
 }
 /* Headings */
 .big-heading{
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     font-weight: 800;
     line-height: 1.5;
 }
@@ -29,7 +29,7 @@ hr{
 
 /* Title Section */
 #title{
-    padding: 7% 18%;
+    padding: 7% 18% 5%;
     background-color: #A4BE7B;
 }
 .profile-photo{
@@ -102,12 +102,8 @@ hr{
     .sub-heading{
         padding: 0 40%;
     }
-    .heading-btn{
-        position: relative;
-        left: 35%;
-    }
     .profile-photo{
-        margin-top: 1rem;
+        margin-bottom: 4rem;
     }
     #title{
         margin-top: 5%;

@@ -52,13 +52,18 @@ body{
   */
   .main {
     padding: 7% 25% 3%;
-
   }
   /*
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   } */
+
+  .text-column{
+    border-left: solid 0.05rem;
+    border-right: solid 0.05rem;
+    border-color: rgba(0,0,0,.1);
+  }
  
   /* Title */
 .main-photo{
